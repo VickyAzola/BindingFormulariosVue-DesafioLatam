@@ -66,7 +66,7 @@ export default {
         <img width="40" :src="chipSRC" alt="" />
         <div>
           <h2>{{ numero }}</h2>
-          <span v-if="fechaExp ?? fechaExp">Fecha Exp: <b>{{ fechaExp }}</b></span>
+          <span v-if="fechaExp">Fecha Exp: <b>{{ fechaExp }}</b></span>
         </div>
         <footer>
           <span>{{ propietario }}</span>
